@@ -42,3 +42,5 @@ npm run build
 ├── public/                # Static assets
 └── tailwind.config.js     # Styling configuration
 
+
+
