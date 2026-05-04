@@ -74,7 +74,7 @@ function App() {
       {decryptedImage && (
         <div className="mt-8 bg-white/5 p-6 rounded-2xl border border-cyan-500/30 text-center">
           <h2 className="text-cyan-400 font-bold mb-4">Reconstructed Original Image</h2>
-          <canvas ref={el => { if(el) el.getContext('2d').putImageData(decryptedImage,0,0) }} width={400} height={300} className="mx-auto rounded-lg shadow-[0_0_30px_rgba(6,182,212,0.2)]" />                                                                          
+          <canvas ref={el => { if(el) el.getContext('2d').putImageData(decryptedImage,0,0) }} width={400} height={300} className="mx-auto rounded-lg shadow-[0_0_30px_rgba(6,182,212,0.2)]" />
         </div>
       )}
     </div>
@@ -82,4 +82,7 @@ function App() {
 }
 
 export default App;
+
+
+
 

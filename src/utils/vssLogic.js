@@ -45,7 +45,3 @@ export const reconstructImage = (share1, share2) => {
   return new ImageData(resultData, width, height);
 };
 
-
-
-
-
